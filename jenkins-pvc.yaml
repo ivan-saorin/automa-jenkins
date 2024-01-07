@@ -4,7 +4,6 @@ metadata:
   name: jenkins-pvc
   namespace: kube-system
 spec:
-  storageClassName: manual
   accessModes:
     - ReadWriteOnce
   resources:
